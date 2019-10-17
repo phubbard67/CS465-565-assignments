@@ -1,0 +1,53 @@
+html{
+    font-size: 100%;
+}
+body{
+  font-size: 75%;
+  color: #444;
+  background: #fff;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  line-height: 1.6666666;
+}
+img {
+    vertical-align: bottom;
+    margin: 0;
+}
+header h1{
+    margin: 0 0 36px 0;
+    color: #999;
+    font: normal normal 5em Baskerville, Palatino, "Book Antiqua", serif;
+}
+
+p {
+    margin-bottom: 1em;
+}
+#unit-many-many-pictures-of-small-cats{
+    margin-top: 8px;
+}
+#unit-kitten-content{
+    padding-right: 8px;
+    width: 400px;
+    height: 582px;
+    position: relative;
+    float: left;
+}
+#image-1{
+    margin-right: 8px;
+}
+#image-0{
+    position: absolute;
+    bottom: 0;
+}
+
+a {	
+	color: #5b9300;
+	text-decoration: none;
+	-webkit-transition: color 0.1s linear;
+}
+
+a:visited {
+	color: #3f6700;
+}
+a:hover {
+	color: #7fcd00;
+}
