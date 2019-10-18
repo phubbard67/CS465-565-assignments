@@ -7,10 +7,19 @@ body{
   background: #fff;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   line-height: 1.6666666;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 img {
     vertical-align: bottom;
     margin: 0;
+}
+#container{
+    width: 824px;
+    margin: 40px auto;
+}
+.unit, .group{
+    display: block;
 }
 header h1{
     margin: 0 0 36px 0;
@@ -20,9 +29,19 @@ header h1{
 
 p {
     margin-bottom: 1em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 #unit-many-many-pictures-of-small-cats{
     margin-top: 8px;
+    float: right;
+    width: 408px;
+}
+#unit-many-many-pictures-of-small-cats img{
+    margin-bottom: 8px;
 }
 #unit-kitten-content{
     padding-right: 8px;
@@ -30,6 +49,15 @@ p {
     height: 582px;
     position: relative;
     float: left;
+}
+#unit-kitten-content p:nth-child(3){
+    background: #444;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+    width: 376px;
+    position: absolute;
+    margin-bottom: 0;
 }
 #image-1{
     margin-right: 8px;
@@ -39,15 +67,61 @@ p {
     bottom: 0;
 }
 
+#image-4{
+    margin-left: 8px;
+}
+#image-5{
+    margin-left: 8px;
+}
+
+#image-1, #image-2, #image-3{
+    float:left;
+}
+#image-4, #image-5, #image-6, #image-7{
+    float: right;
+}
+.unit:after, .group:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 a {	
 	color: #5b9300;
 	text-decoration: none;
 	-webkit-transition: color 0.1s linear;
 }
 
+footer{
+    font-size: 85.714%;
+    clear: both;
+    margin-top: 16px;
+    border-top: 1px solid #d6d6d6;
+    padding: 12px 0;
+}
 a:visited {
 	color: #3f6700;
 }
 a:hover {
 	color: #7fcd00;
+}
+
+article, aside, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+@media screen and (min-device-width: 480px){
+    body {
+        text-rendering: optimizeLegibility;
+    }
 }
