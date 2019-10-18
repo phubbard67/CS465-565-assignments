@@ -26,7 +26,12 @@ header h1{
     color: #999;
     font: normal normal 5em Baskerville, Palatino, "Book Antiqua", serif;
 }
-
+#unit-kitten-content p:nth-child(3) a {
+    color: #c9e2b1;
+    margin-left: 1em;
+    font-family: monospace, sans-serif;
+    -webkit-transition: color 0.2s linear;
+}
 p {
     margin-bottom: 1em;
     display: block;
