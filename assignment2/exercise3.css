@@ -1,0 +1,111 @@
+
+/*************** HTML */
+html{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(55, 201, 245);
+    margin: 0;
+    padding: 0;
+}
+/*************** BODY */
+
+/*************** Header */
+header{
+    background: #ff5050;
+    height: 60px;
+    margin: -8px -8px 0 -8px;
+}
+header h4{
+    margin: 0;
+    padding: 8px 0;
+    color: white;
+    float: left;
+}
+ul{
+    float: right;
+    width: 300px;
+}
+ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: black;
+}
+ui li a:focus{
+    color: grey;
+}
+
+/*************** Content */
+.content{
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.projects, .about, .contacts{
+    padding: 100px;
+    margin: -2em -5em 0 -5em;
+}
+h1 {
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+#back-to-top a{
+    text-decoration: none;
+    color: white;
+}
+#back-to-top a:hover{
+    color: black;
+}
+#back-to-top{
+    margin-top: 10px;
+
+}
+/*************** About */
+.about{
+    align-items: center;
+    text-align: center;
+    background: #F90;
+}
+/*************** Projects */
+.projects {
+    background: #F99;
+    text-align: center;
+    align-items: center;
+}
+.project-one:hover, .project-two:hover, .project-three:hover{
+    box-shadow: 2px 2px 0.4em grey, -2px -2px 0.4em grey;
+}
+/*************** Contact */
+.contacts{
+    align-items: center;
+    text-align: center;
+    background: rgb(84, 207, 125);
+}
+/*************** Screen Sizing */
+@media screen and (min-device-width: 480px){
+    .project-one {
+        float: left;
+        padding: 0;
+        margin-left: 20em;
+    }
+    .project-three{
+        padding: 0;
+        float: right;
+        margin-right: 20em;
+    }
+    .project-two{
+        text-align: center;
+        padding: 0;
+    }
+    .projects div{
+        display: inline-block;
+    }
+}
