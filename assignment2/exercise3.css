@@ -128,11 +128,11 @@ h1 {
 }
 #submit:hover{
     color: black;
-    background: limegreen;
+    background: rgb(84, 207, 125);
 }
 #reset:hover{
     color: black;
-    background: limegreen;
+    background: rgb(84, 207, 125);
 }
 #submit:focus{
     color: white;
