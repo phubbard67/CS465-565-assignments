@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="./exercise3.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Modak&display=swap" rel="stylesheet">
     <title>Paul Hubbard Development</title>
 </head>
 
@@ -16,7 +17,7 @@
         <ul>
             <li><a href="#Projects">Projects</a></li>
             <li><a href="#About">About</a></li>
-            <li><a href="#Contacts">Contacts</a></li>
+            <li><a href="#Contacts">Contact</a></li>
         </ul>
     </header>
 
@@ -47,12 +48,22 @@
             <p id="back-to-top"><a href="#header" >Back To Top</a></p>
         </div>
         <br>
-        <div class="contacts">
+        <div class="contacts" id="Contacts">
             <form>
-                <h2 id="Contacts">Contact</h2>
-                <label>Email</label>
-                <input type=text>
-                <input type=submit value="Submit">
+                <h3>CONTACT</h3>
+                <div class="email_name">
+                        <input type="text" value="Name">
+                        <br></br>
+                        <input type="text" value="Email">
+                        <br></br> 
+                </div>
+                <textarea id="expanding" cols="40" rows="5"></textarea>
+                <br></br>
+                <br></br>
+                <div class="buttons">
+                        <input id="submit" type="submit" value="SUBMIT">
+                        <input id="reset" type="button" value="RESET">
+                </div>
             </form>
             <p id="back-to-top"><a href="#header" >Back To Top</a></p>
         </div>

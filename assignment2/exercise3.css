@@ -2,10 +2,11 @@
 /*************** HTML */
 html{
     font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Indie Flower', cursive;
     background: rgb(55, 201, 245);
     margin: 0;
     padding: 0;
+
 }
 /*************** BODY */
 
@@ -44,7 +45,6 @@ ui li a:focus{
 
 /*************** Content */
 .content{
-    font-family: Helvetica;
     margin: 0;
 }
 
@@ -56,6 +56,9 @@ h1 {
     align-items: center;
     text-align: center;
     padding: 50px;
+    font-family: 'Modak', cursive;
+    font-size: 10em;
+    font-weight: lighter;
 }
 #back-to-top a{
     text-decoration: none;
@@ -73,6 +76,11 @@ h1 {
     align-items: center;
     text-align: center;
     background: #F90;
+
+}
+.about p{
+    margin: 2em 8em;
+    font-size: 1.5em;
 }
 /*************** Projects */
 .projects {
@@ -83,11 +91,56 @@ h1 {
 .project-one:hover, .project-two:hover, .project-three:hover{
     box-shadow: 2px 2px 0.4em grey, -2px -2px 0.4em grey;
 }
+.project-one , .project-two , .project-three {
+    background: white;
+    height: 3em;
+    margin: 0;
+    padding-top: 2em;
+}
 /*************** Contact */
 .contacts{
     align-items: center;
     text-align: center;
     background: rgb(84, 207, 125);
+}
+.email_name{
+    overflow: auto;
+}
+.email_name > input{
+    padding: 1em;
+    width: 16em;
+    color: grey;
+}
+#expanding {
+    resize: both;
+    overflow: auto;
+    height: 10em;
+    width: 18em;
+}
+.buttons > input {
+    width: 7em;
+    height: 3em;
+    margin: 1em;
+    background: rgb(81, 159, 223);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+#submit:hover{
+    color: black;
+    background: limegreen;
+}
+#reset:hover{
+    color: black;
+    background: limegreen;
+}
+#submit:focus{
+    color: white;
+    background: rgb(143, 141, 141);
+}
+#reset:focus{
+    color: white;
+    background: rgb(143, 141, 141);
 }
 /*************** Screen Sizing */
 @media screen and (min-device-width: 480px){
