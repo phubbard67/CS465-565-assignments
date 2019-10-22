@@ -54,9 +54,14 @@ h1 {
     align-items: center;
     text-align: center;
     padding: 50px;
-    font-family: 'Modak', cursive;
     font-size: 10em;
+}
+h1, h2, h3{
+    font-family: 'Modak', cursive;
     font-weight: lighter;
+}
+h2, h3{
+    font-size: 2em;
 }
 #back-to-top a{
     text-decoration: none;
@@ -67,18 +72,19 @@ h1 {
 }
 #back-to-top{
     margin-top: 10px;
-
+}
+.content p{
+    font-size: 1.5em;
 }
 /*************** About */
 .about{
     align-items: center;
     text-align: center;
     background: #F90;
-
 }
 .about p{
     margin: 2em 8em;
-    font-size: 1.5em;
+
 }
 /*************** Projects */
 .projects {
@@ -168,11 +174,8 @@ h1 {
         display: inline-block;
     }
     .project-one , .project-two , .project-three {
-        background: white; 
         height: 3em; 
     }
-
-
 }
 @media screen and (min-width: 700px){
     header h4{
