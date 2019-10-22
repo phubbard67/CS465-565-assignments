@@ -196,6 +196,9 @@ h2, h3{
     .content p{
         font-size: 1.2em;
     }
+    .about p{
+        margin: 0 1em;
+    }
     header ul{
         text-align: center;
         margin: 0 0 0 4em;
