@@ -92,8 +92,8 @@ h2, h3{
     text-align: center;
     align-items: center;
 }
-.project-one:hover, .project-two:hover, .project-three:hover{
-    box-shadow: 2px 2px 0.4em grey, -2px -2px 0.4em grey;
+.project-one img:hover, .project-two img:hover, .project-three img:hover{
+    box-shadow: 2px 2px 0.4em  black, -2px -2px 0.4em  white;
 }
 .project-one , .project-two , .project-three {
     margin: 0;
@@ -193,8 +193,8 @@ h2, h3{
     ul {
         margin: 0;
     }
-    .about p{
-        font-size: 1em;
+    .content p{
+        font-size: 1.2em;
     }
     header ul{
         text-align: center;
