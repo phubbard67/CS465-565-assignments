@@ -190,9 +190,6 @@ h2, h3{
     h1 {
         font-size: 3em;
     }
-    ul {
-        margin: 0;
-    }
     .content p{
         font-size: 1.2em;
     }
@@ -201,9 +198,10 @@ h2, h3{
     }
     header ul{
         text-align: center;
-        margin: 0 0 0 4em;
+        margin: 0 auto;
     }
     header h4{
         text-align: center;
+        margin: 0 auto;
     }
 }
