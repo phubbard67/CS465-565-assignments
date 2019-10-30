@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment 3 Exersice 5</title>
+</head>
+<body>
+    <div class="container">
+        <p>One</p>
+    </div>
+    <div class="big-container">
+        <div class="big-div">
+                <p>Two</p>
+        </div>
+        <div class="russian-doll">
+            <div class="small-container">
+                <div class="col">
+                    <p>Three</p>
+                </div>
+                <div class="col">
+                    <p>Four</p>
+                </div>
+            </div>
+            <div class="medium-container">
+                <p>Five</p>
+            </div>
+            </div>
+        </div>
+</body>
+<style>
+    div{
+        overflow: hidden;
+        border-radius: 2%;
+        color: white;
+    }
+    .container{
+        display: flex;
+        background: grey;
+        margin: 3px;
+    }
+    .big-container{
+        display: flex;
+    }
+    .big-div{
+        height: 200px;
+        width: 50%;
+        background: grey;
+        margin: 3px;
+    }
+    .russian-doll{
+        height: 200px;
+        width: 50%;
+    }
+    .col{
+        width: 50%;
+        background: grey;
+        margin: 3px;
+    }
+    .small-container{
+        display: flex;
+        flex: auto;
+        flex-direction: row;
+    }
+    .medium-container{
+        display: flex;
+        background: grey;
+        height: 148px;
+        margin: 3px;
+    }
+</style>
+</html>
