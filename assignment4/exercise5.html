@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" id="button" value="Change Colors">
+</body>
+<script>
+    document.getElementById("button").onclick = function(){
+        var randomVar = Math.random() * 16777215;
+        randomVar = Math.round(randomVar);
+        var randColor = "#" + randomVar.toString(16);
+
+        document.getElementById('html').style.cssText = "background-color: " + randColor;  
+    };
+</script>
+</html>
