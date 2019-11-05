@@ -5,4 +5,19 @@
             Assignment Four Exercise Two
         </title>
     </head>
+    <script type="text/javascript">
+    function rev(userInput){
+        if(!Number(userInput))
+        {
+            console.log("NaN: Try again");
+            return;
+        }
+        var split = userInput.toString().split("");
+        var rever = split.reverse();
+        var output = rever.join("");
+
+        console.log(output);
+        return;
+    }
+    </script>
 </html>
