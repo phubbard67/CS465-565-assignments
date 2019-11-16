@@ -10,7 +10,7 @@ app.get('/', function(request, response){
     response.sendFile(path.join(__dirname + '/index.html'));
 });
 app.post('/submit', function(req, res) {
-    console.log(req.body);
+    console.log("We did it");
 });
 
 
