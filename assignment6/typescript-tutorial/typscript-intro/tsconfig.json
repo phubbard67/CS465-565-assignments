@@ -1,0 +1,12 @@
+{
+    "files": [
+        "src/Main.ts",
+        "src/Guest.ts",
+        "src/Codelab.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es5"
+    }
+}
+
