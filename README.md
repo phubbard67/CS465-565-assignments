@@ -21,8 +21,8 @@ In assignment 5, we created a basic client server with Node.js to return a name,
   -Express
 ### Assignment 6
 In this assignment, we did different tutorials for web application technology. I chose to do the following three tutorials<br>
--<a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website">Express tutorial</a><br>
--<a href="https://angular-presentation.firebaseapp.com/angular/typescript/intro">Typescript Tutorial</a><br>
--<a href="https://reactjs.org/tutorial/tutorial.html">React Tutorial</a><br>
+-<a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website" target="_blank">Express tutorial</a><br>
+-<a href="https://angular-presentation.firebaseapp.com/angular/typescript/intro" target="_blank">Typescript Tutorial</a><br>
+-<a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">React Tutorial</a><br>
 ### Hello World
 This is pretty self explanatory. 
