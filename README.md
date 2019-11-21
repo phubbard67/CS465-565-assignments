@@ -9,9 +9,18 @@ This folder is full of basic HTML pages. To view them, just run them in your bro
 This is an extension of assignment one, but adding some css
 
 ### Assignment 3
-
+In this assignment, we focused on box placement on an HTML page, with a main focus in Bootstrap
 ### Assignment 4
-
+In this assinment, we focused on implamenting basic Javascript functions
 ### Assignment 5
-
+In assignment 5, we created a basic client server with Node.js to return a name, email and message to the user's screen.
+#### Languages used
+  -Bootstrap<br>
+  -html<br>
+  -Node.js<br>
+  -Express
 ### Assignment 6
+In this assignment, we did different tutorials for web application technology. I chose to do the following three tutorials<br>
+-<a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website">Express tutorial</a><br>
+-<a href="https://angular-presentation.firebaseapp.com/angular/typescript/intro">Typescript Tutorial</a><br>
+-<a href="https://reactjs.org/tutorial/tutorial.html">React Tutorial</a><br>
