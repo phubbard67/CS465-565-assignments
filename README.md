@@ -13,7 +13,7 @@ In this assignment, we focused on box placement on an HTML page, with a main foc
 ### Assignment 4
 In this assinment, we focused on implamenting basic Javascript functions
 ### Assignment 5
-In assignment 5, we created a basic client server with Node.js to return a name, email and message to the user's screen.
+In assignment 5, we created a basic client server with Node.js to return a name, email and message to the user's screen. To run, make sure you have axios, express and node.js, then, from within the folder containing the project, run 'node app.js'.
 #### Languages used
   -Bootstrap<br>
   -html<br>
